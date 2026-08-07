@@ -1,0 +1,77 @@
+[
+  {
+    "legal": "SYNTHETIC teaching fixture shaped like the public RemoteOK API (a JSON array whose first element is a notice). Postings are FICTIONAL — no real companies or people."
+  },
+  {
+    "id": "ro-201",
+    "position": "Junior Backend Developer",
+    "company": "Zanzibar Cloud",
+    "location": "Remote",
+    "date": "2026-08-02T00:00:00+00:00",
+    "tags": ["python", "sql", "git", "junior"],
+    "salary_min": 18000,
+    "salary_max": 30000,
+    "description": "Remote-first team hiring a junior backend developer. You will write Python and SQL, review each other's code on Git. Open to candidates across Africa.",
+    "url": "https://example.org/remoteok/201"
+  },
+  {
+    "id": "ro-202",
+    "position": "Data Analyst",
+    "company": "Sahara Systems",
+    "location": "Remote (Africa)",
+    "date": "2026-07-20T00:00:00+00:00",
+    "tags": ["sql", "excel", "tableau"],
+    "salary_min": 0,
+    "salary_max": 0,
+    "description": "Analyse product usage data. SQL and Excel essential, Tableau a bonus. Remote within African timezones preferred.",
+    "url": "https://example.org/remoteok/202"
+  },
+  {
+    "id": "ro-203",
+    "position": "Frontend Engineer",
+    "company": "Cape Pixel",
+    "location": "Cape Town, ZA",
+    "date": "2026-06-28T00:00:00+00:00",
+    "tags": ["javascript", "react", "css"],
+    "salary_min": 25000,
+    "salary_max": 40000,
+    "description": "Frontend engineer in Cape Town building customer dashboards with React, JavaScript and CSS.",
+    "url": "https://example.org/remoteok/203"
+  },
+  {
+    "id": "ro-204",
+    "position": "Machine Learning Engineer",
+    "company": "Atlas AI",
+    "location": "Remote",
+    "date": "2026-05-30T00:00:00+00:00",
+    "tags": ["python", "ml", "senior"],
+    "salary_min": 90000,
+    "salary_max": 130000,
+    "description": "Senior ML engineer, 6+ years experience, to own our recommendation systems. Deep Python and distributed systems background required.",
+    "url": "https://example.org/remoteok/204"
+  },
+  {
+    "id": "ro-205",
+    "position": "Graduate Software Engineer",
+    "company": "Dakar Devs",
+    "location": "Dakar, Senegal",
+    "date": "2026-08-04T00:00:00+00:00",
+    "tags": ["python", "git", "javascript", "graduate"],
+    "salary_min": 0,
+    "salary_max": 0,
+    "description": "Graduate programme for software engineers in Dakar. We will train you; you bring curiosity, some Python and Git. First job friendly.",
+    "url": "https://example.org/remoteok/205"
+  },
+  {
+    "id": "ro-206",
+    "position": "Sales Representative",
+    "company": "Savanna Media",
+    "location": "Remote",
+    "date": "2026-07-11T00:00:00+00:00",
+    "tags": ["sales", "crm", "communication"],
+    "salary_min": 15000,
+    "salary_max": 22000,
+    "description": "Remote sales representative. CRM experience and strong communication. No coding required.",
+    "url": "https://example.org/remoteok/206"
+  }
+]

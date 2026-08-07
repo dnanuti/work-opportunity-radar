@@ -1,0 +1,61 @@
+# Single source of truth for seeds, sizes, split ratios, and paths.
+# Every module reads from here — no magic numbers scattered around the code.
+
+seed: 42
+
+paths:
+  raw_source_records: data/raw/source_records.json    # untouched provider payload + provenance
+  raw_jobs: data/raw/jobs.csv
+  clean_jobs: data/processed/jobs_clean.csv
+  collected_jobs: data/raw/collected_jobs.csv         # real/collected posts land here
+  trusted_jobs: data/processed/opportunities_trusted.csv
+  matches: data/processed/matches.csv                 # radar output: ranked opportunities
+  feedback: output/feedback.jsonl
+  profile: profiles/amina.json
+  vague_prompt: prompts/vague.txt
+  grounded_prompt: prompts/grounded.txt
+
+# Data collection — where real-world job posts come from. Offline-first: the default
+# 'sample' source reads bundled JSON fixtures that look like real API payloads, so the
+# ingest + normalise code is real even with no network. Live sources fall back to
+# 'sample' automatically if the network or API is unavailable (never crash on stage).
+collect:
+  source: sample            # sample | africa_ats | csv | json | remotive | remoteok
+  query: ""                 # keyword filter; blank lets the ranking decide relevance
+  africa_only: true         # keep only Africa-relevant + (optionally) remote roles
+  include_remote: true      # treat global-remote roles as relevant to African grads
+  max_results: 60
+  fixtures_dir: data/fixtures
+  user_file: ""             # path to your own CSV/JSON when source is csv|json
+  timeout_seconds: 8        # live-source HTTP timeout before falling back to sample
+  freshness_days: 45        # a post older than this counts as 'stale' in the scorecard
+  # Public employer job-board APIs. These are examples, not endorsements; listings change.
+  greenhouse_boards: [jumo]
+  lever_sites: [Yassir]
+
+data:
+  n_base_jobs: 260          # unique base posts before duplication
+  duplicate_rate: 0.50      # fraction of base posts re-posted (exact or near-dup)
+  near_dup_fraction: 0.6    # of the duplicates, this fraction are *near* (edited) dups
+  missing:
+    salary: 0.35            # per-column probability a value is nulled
+    deadline: 0.25
+    location: 0.10
+  label_noise: 0.18         # fraction of is_opportunity labels flipped (applied to base
+                            # posts, so duplicates inherit the same noisy label)
+  unparseable_date_rate: 0.15
+
+split:
+  test_size: 0.30
+
+matching:
+  # Minimum gap the leakage demo must show (naive_score - honest_score).
+  # tests/test_matching.py asserts the real gap is at least this large.
+  min_leakage_gap: 0.08
+
+llm:
+  # offline is deterministic and safe for a live talk.
+  # openai is optional and uses the OpenAI API (not a ChatGPT subscription).
+  provider: offline          # offline | openai
+  api_model: gpt-5.6
+  api_key_env: OPENAI_API_KEY

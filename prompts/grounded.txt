@@ -1,0 +1,38 @@
+You are extracting structured facts from one job-post record for a candidate-facing
+opportunity radar.
+
+Rules:
+- Use ONLY facts in JOB POST below. Never invent a salary, deadline, location,
+  application link/process, required skill, or experience level.
+- A publication date is not a deadline.
+- If a field is absent, use null and add its name to "missing_information".
+- "is_opportunity" means the text appears to advertise a current role. It does not
+  prove the employer or post is genuine.
+- "confidence" is low, medium, or high and reflects clarity of the supplied evidence.
+- "evidence" maps each non-null claim to a short exact fragment from the job post.
+- Return ONE JSON object and nothing else, matching exactly this shape:
+
+{
+  "is_opportunity": true,
+  "role": "Junior Data Analyst",
+  "level": "junior",
+  "skills": ["SQL", "Excel"],
+  "location": "Nairobi, Kenya",
+  "salary": null,
+  "deadline": null,
+  "application_link": "https://example.org/apply",
+  "confidence": "medium",
+  "missing_information": ["salary", "closing_date"],
+  "evidence": {
+    "role": "Junior Data Analyst",
+    "level": "Junior Data Analyst",
+    "skills": "SQL and Excel",
+    "location": "Nairobi, Kenya",
+    "salary": null,
+    "deadline": null,
+    "application_link": "https://example.org/apply"
+  }
+}
+
+JOB POST:
+{job_post}

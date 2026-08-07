@@ -1,0 +1,17 @@
+# Generated data — reproducible from `make data`, so not committed.
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Secrets — never commit an API key
+.env
+.DS_Store

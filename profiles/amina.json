@@ -1,0 +1,12 @@
+{
+  "note": "FICTIONAL candidate created for a teaching demo. Not a real person. No real personal data is used anywhere in this project.",
+  "name": "Amina (fictional)",
+  "location": "Nairobi, KE",
+  "location_preference": ["Nairobi", "Remote"],
+  "career_stage": "new_graduate",
+  "preferred_levels": ["internship", "graduate", "junior", "entry_level"],
+  "skills": ["Python", "SQL", "JavaScript", "Git"],
+  "target_roles": ["Junior Data Analyst", "Graduate Software Engineer"],
+  "interests": ["data analysis", "backend engineering", "junior developer roles"],
+  "bio": "Final-year computer science graduate based in Nairobi. Comfortable with Python and SQL, some JavaScript, versions everything with Git. Looking for a first role as a junior data analyst or software developer, remote or in Nairobi."
+}

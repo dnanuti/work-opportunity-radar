@@ -1,0 +1,11 @@
+{
+  "note": "Copy or generate this as profiles/candidate.json. Do not add contact details, a CV, or other sensitive data.",
+  "name": "Your name or a nickname",
+  "location": "Your city, country",
+  "location_preference": ["Your city", "Remote"],
+  "career_stage": "new_graduate",
+  "preferred_levels": ["graduate", "junior", "entry_level"],
+  "skills": ["Python", "SQL", "Git"],
+  "target_roles": ["Data Analyst", "Software Developer"],
+  "interests": ["data", "backend engineering"]
+}

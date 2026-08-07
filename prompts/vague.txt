@@ -1,0 +1,4 @@
+Summarise this job post and write an application message for the candidate.
+
+Job post:
+{job_post}

@@ -1,0 +1,161 @@
+{
+  "0-legal-notice": "SYNTHETIC teaching fixture. Shaped like the public Remotive API response but the postings are FICTIONAL — no real companies, people, or contact details. Do not treat as live listings.",
+  "job-count": 14,
+  "jobs": [
+    {
+      "id": 101,
+      "title": "Junior Data Analyst",
+      "company_name": "Acacia Analytics",
+      "candidate_required_location": "Nairobi, KE",
+      "salary": "KES 90,000 - 120,000 / month",
+      "publication_date": "2026-07-28T09:00:00",
+      "job_type": "full_time",
+      "description": "Acacia Analytics is hiring a Junior Data Analyst in Nairobi. You will clean data, build dashboards and write SQL. Comfortable with Excel and Python is a plus. Great first role for a new graduate.",
+      "url": "https://example.org/jobs/101"
+    },
+    {
+      "id": 102,
+      "title": "Jr. Data Analyst",
+      "company_name": "Acacia Analytics",
+      "candidate_required_location": "nairobi",
+      "salary": "",
+      "publication_date": "2026-07-29T10:30:00",
+      "job_type": "full_time",
+      "description": "Acacia Analytics is hiring a Junior Data Analyst in Nairobi. You will clean data, build dashboards and write SQL. Comfortable with Excel and Python is a plus. Great first role for a new graduate.",
+      "url": "https://example.org/jobs/102"
+    },
+    {
+      "id": 103,
+      "title": "Backend Developer (Junior)",
+      "company_name": "Lagos Logic",
+      "candidate_required_location": "Lagos, Nigeria",
+      "salary": "NGN 400,000 monthly",
+      "publication_date": "2026-07-15T08:00:00",
+      "job_type": "full_time",
+      "description": "Join Lagos Logic as a junior backend developer. Stack is Python, SQL and Git. You'll ship APIs and learn from senior engineers. Apply at careers@example.org.",
+      "url": "https://example.org/jobs/103"
+    },
+    {
+      "id": 104,
+      "title": "Data Science Intern",
+      "company_name": "Kilimanjaro AI",
+      "candidate_required_location": "Remote (Africa)",
+      "salary": "USD 800 stipend",
+      "publication_date": "2026-08-01T12:00:00",
+      "job_type": "internship",
+      "description": "Remote internship for a data science student. Python and statistics required; SQL helpful. You will support model evaluation and data cleaning.",
+      "url": "https://example.org/jobs/104"
+    },
+    {
+      "id": 105,
+      "title": "Frontend Developer",
+      "company_name": "Accra Apps",
+      "candidate_required_location": "Accra, GH",
+      "salary": "",
+      "publication_date": "2026-06-20T09:00:00",
+      "job_type": "full_time",
+      "description": "Accra Apps needs a frontend developer who knows JavaScript, React and CSS. Portfolio over years of experience.",
+      "url": "https://example.org/jobs/105"
+    },
+    {
+      "id": 106,
+      "title": "Software Engineer",
+      "company_name": "Kigali Cloud",
+      "candidate_required_location": "Kigali, Rwanda",
+      "salary": "",
+      "publication_date": "2026-07-30T09:00:00",
+      "job_type": "full_time",
+      "description": "Software engineer wanted in Kigali. We use Python and JavaScript. You will build internal tools and version everything with Git.",
+      "url": "https://example.org/jobs/106"
+    },
+    {
+      "id": 107,
+      "title": "Senior Staff Engineer",
+      "company_name": "Nile Data Co",
+      "candidate_required_location": "Cairo, Egypt",
+      "salary": "EGP 90,000 monthly",
+      "publication_date": "2026-05-10T09:00:00",
+      "job_type": "full_time",
+      "description": "10+ years of experience required. Lead distributed systems for Nile Data Co. Not a junior role.",
+      "url": "https://example.org/jobs/107"
+    },
+    {
+      "id": 108,
+      "title": "Remote Junior Developer",
+      "company_name": "Baobab Labs",
+      "candidate_required_location": "Anywhere",
+      "salary": "USD 1500 / month",
+      "publication_date": "2026-08-03T09:00:00",
+      "job_type": "full_time",
+      "description": "Fully remote junior developer role, open worldwide. Python and Git required. Friendly to new graduates in any timezone.",
+      "url": "https://example.org/jobs/108"
+    },
+    {
+      "id": 109,
+      "title": "Marketing Manager",
+      "company_name": "Savanna Media",
+      "candidate_required_location": "Johannesburg, ZA",
+      "salary": "ZAR 45,000 monthly",
+      "publication_date": "2026-07-01T09:00:00",
+      "job_type": "full_time",
+      "description": "Lead marketing campaigns. SEO and strategy, 5 years experience. Not a technical role.",
+      "url": "https://example.org/jobs/109"
+    },
+    {
+      "id": 110,
+      "title": "Data Analyst",
+      "company_name": "Harambee Digital",
+      "candidate_required_location": "Kampala, Uganda",
+      "salary": "",
+      "publication_date": "2026-07-22T09:00:00",
+      "job_type": "full_time",
+      "description": "Harambee Digital seeks a data analyst comfortable with SQL, Excel and Tableau. You will report on programme outcomes.",
+      "url": "https://example.org/jobs/110"
+    },
+    {
+      "id": 111,
+      "title": "Junior Software Developer",
+      "company_name": "Berlin Byte",
+      "candidate_required_location": "Berlin, Germany",
+      "salary": "EUR 48,000",
+      "publication_date": "2026-07-18T09:00:00",
+      "job_type": "full_time",
+      "description": "On-site junior developer in Berlin. Relocation required, no remote. JavaScript and CSS.",
+      "url": "https://example.org/jobs/111"
+    },
+    {
+      "id": 112,
+      "title": "IT Support Technician",
+      "company_name": "Rift Valley Tech",
+      "candidate_required_location": "Nakuru",
+      "salary": "KES 55,000",
+      "publication_date": "2026-07-25T09:00:00",
+      "job_type": "full_time",
+      "description": "Support desktops and networks. Windows, networking and hardware skills. Not a software role.",
+      "url": "https://example.org/jobs/112"
+    },
+    {
+      "id": 113,
+      "title": "Our data team is growing",
+      "company_name": "",
+      "candidate_required_location": "Nairobi, Kenya",
+      "salary": "",
+      "publication_date": "",
+      "job_type": "",
+      "description": "Our data team is growing - DM me.",
+      "url": ""
+    },
+    {
+      "id": 114,
+      "title": "Graduate Tech Careers Fair",
+      "company_name": "Community Events Hub",
+      "candidate_required_location": "Nairobi, Kenya",
+      "salary": "",
+      "deadline": "2026-06-01",
+      "publication_date": "2026-05-01T09:00:00",
+      "job_type": "event",
+      "description": "A careers event for graduates. The event took place last month and has ended.",
+      "url": "https://example.org/events/114"
+    }
+  ]
+}
